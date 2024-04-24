@@ -5,19 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@100..900&family=Sedan:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
         body {
-            /* Texto Não Serifado */
-            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw(% of view port with), vh(view port height), %
+            16px GERALMENTE equivale à 1em
+            */
+            font-size: 1em;
         }
 
         h1, h2 {
-            /* Título Serifado */
-            font-family: 'Times New Roman', Times, serif;
+            font-family: "Sedan", serif;
+
+            /* Shorthand font
+            - font style -> font weight -> font size -> font family*/
+
+            /* font-family: "Sedan", serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            
+            /* font: italic bolder 3em "Sedan", serif; */
+        }
+
+        p {
+            font-family: "Outfit", sans-serif;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <h1>Trabalhando com Fontes</h1>
+    <h2>Fontes com Google Fonts</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non debitis, architecto laudantium voluptates facilis ullam aspernatur aliquid repudiandae earum quidem tempore nesciunt, necessitatibus tempora eum esse ipsam fuga pariatur omnis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nisi tempora officia earum facere veniam iste modi totam ad, tenetur quia doloribus nobis quae laboriosam, magni, maiores porro possimus odit!</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, totam deserunt pariatur odio distinctio exercitationem facilis corporis sunt ea blanditiis natus porro animi incidunt. Porro atque laborum odit qui fuga!</p>
 

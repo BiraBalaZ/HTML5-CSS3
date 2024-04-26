@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 450px;
+            
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: darkslategrey; */
+
+            border: 10px solid slategray;
+
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            padding: 10px 20px;
+
+            /* margin-top: 10px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+            margin-left: 20px; */
+
+            margin: auto;
+
+            /* outline-width: 2px;
+            outline-style: dashed;
+            outline-color: black; */
+            outline: black outset 5px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .inline {
+            border: 2px solid red;
+        }
+
+        .outline {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box-Level</h1>
+    <p class="outline">Os parágrafos também são exemplos de <strong class="inline">box-level</strong>, mas os <a class="inline" href="#">links</a> são exemplos de caixas <strong class="inline">inline-level</strong> assim como a tag &lt;strong&gt;. Vamos ver como tudo isso funciona.</p>
+    <p class="outline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates? Quibusdam quisquam, delectus iure dolorem labore soluta veritatis consectetur incidunt laudantium optio voluptas tenetur placeat dolores, perspiciatis aut in odit!</p>
+</body>
+</html>

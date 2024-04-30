@@ -61,7 +61,7 @@
 <div>
     <p>Links que serão utilizados durante o curso:</p>
     <ul>
-        <li><a>github.com/gustavoguanabara</a></li>
-        <li><a>gustavoguanabara.github.io</a></li>
+        <li><a href="github.com/gustavoguanabara">github.com/gustavoguanabara</a></li>
+        <li><a href="gustavoguanabara.github.io">gustavoguanabara.github.io</a></li>
     </ul>
 </div>
